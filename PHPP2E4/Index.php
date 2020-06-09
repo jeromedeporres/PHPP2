@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
 <head>
-    <meta charset="utf-8"/>
+    <meta charset="utf-8" />
     <title>PHPP2EXO04</title>
 </head>
     <body>
         <p><?php
-            $magnitude = 9;
+            $magnitude = 11;
             switch ($magnitude) {
                 case 1: 
                     echo 'Micro-séisme impossible à ressentir.';
@@ -35,6 +35,8 @@
                 case 9:
                     echo 'Séisme capable de tout détruire sur une très vaste zone.';
                 break;
+            default :
+                    echo 'Veuillez entrer une valeur valide';
             }
             ?>
         </p>
