@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
 <head>
-    <meta charset="utf-8"/>
+    <meta charset="utf-8" />
     <title>PHPP2EXO05</title>
 </head>
     <body>
         <p><?php
-        $gender = 'femme';
+        $gender = 'homme';
         if ($gender != 'homme') 
         {
-            echo 'C\'est un développeur !!!';
+            echo 'C\'est une développeuse !!!';
         }
         else
         {
-            echo 'C\'est une développeuse !!!';
+            echo 'C\'est un développeur !!';
         }
         ?></p>
     </body>
